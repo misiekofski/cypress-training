@@ -1,0 +1,23 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "Cypress training",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  },
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misiekofski/cypress-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misiekofski/cypress-training/issues"
+  },
+  "homepage": "https://github.com/misiekofski/cypress-training#readme"
+}
