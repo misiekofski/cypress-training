@@ -4,13 +4,14 @@
 
 context('Procedural test into Page Object Pattern', () => {
     beforeEach(() => {
-      cy.visit('');
+      cy.visit('https://portal.vizlib.com/auth/login');
     })
   
     
     it('procedural tests to rewrite it to Page Object Pattern', () => {
-        cy.get('.username').type('my username');
-        cy.get('.password').type('my password');
-        cy.get('button').click();
+        cy.get('#mat-input-0').type('dobrzycki@gmail.com');
+        cy.get('.mat-button-wrapper').click();
+        cy.get('#mat-input-9').type('test12345');
+        cy.get('.mat-button-wrapper').click();
     })
 })
