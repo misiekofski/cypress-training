@@ -26,9 +26,11 @@ export default class TodoApp extends Component {
   }
 
   addToDo (todo) {
-    this.setState({
-      todos: [...this.state.todos, todo]
-    })
+    setTimeout(() => {
+      this.setState({
+        todos: [...this.state.todos, todo]
+      })
+    }, 500)
   }
 
   onInputChange (event) {
