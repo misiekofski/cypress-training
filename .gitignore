@@ -27,3 +27,17 @@ build/Release
 node_modules
 cypress/videos
 cypress/screenshots
+
+# IntelliJ IDE
+/.idea
+
+# Package files
+*.jar
+*.rar
+*.war
+*.zip
+*.7z
+*.tar.gz
+
+# SonarQube
+.scannerwork

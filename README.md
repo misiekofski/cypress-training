@@ -20,19 +20,19 @@ Now the fun part. Cypress in a nutshell. We're going to write our own tests.
 ## Day 1, Module 3 - Spies, Stubs, Clocks
 
 
-## Day 1, Module 4 - Custom Commands
-
-
-## Day 1, Module 5 - Code Coverage
+## Day 1, Module 4 - Code Coverage
 
 
 ## Day 2, Module 1 - Page Object Pattern
 
 
-## Day 2, Module 2 - Static Code Analysis
+## Day 2, Module 2 - Interceptors
 
 
-## Day 2, Module 3 - Good Practices
+## Day 2, Module 3 - Static Code Analysis
+
+
+## Day 2, Module 4 - Good Practices
 
 
 ## Cypress.Log
