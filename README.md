@@ -33,6 +33,3 @@ Now the fun part. Cypress in a nutshell. We're going to write our own tests.
 
 
 ## Day 2, Module 4 - Good Practices
-
-
-## Cypress.Log
