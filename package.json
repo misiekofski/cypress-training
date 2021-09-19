@@ -14,7 +14,11 @@
     "flatted": "^3.2.2"
   },
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "cypress run",
+    "cy:zero": "npm run cy:run -- --spec ./cypress/integration/day1/0a-getting-started/*.spec.js",
+    "cy:one": "npm run cy:run -- --spec ./cypress/integration/day1/0*/*.spec.js"
   },
   "repository": {
     "type": "git",
