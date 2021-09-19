@@ -21,6 +21,17 @@ Now the fun part. Cypress in a nutshell. We're going to write our own tests.
 
 
 ## Day 1, Module 4 - Code Coverage
+<ol>
+<li>Check <code>./src/calc.js</code> code.</li>
+<li>Check <code>./cypress/integration/day1/4-code-coverage/1-task/calc.spec.js</code> code.</li>
+<li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
+<li>Run <code>4-code-coverage/1-task/calc.spec.js</code> unit tests.</li>
+<li>Make sure all unit tests <strong>passed</strong>.</li>
+<li>Run <code>npx nyc report --reporter=text-summary</code> to get overview.</li>
+<li>Open <code>./coverage/lcov-report/index.html</code> in the web browser.</li>
+<li>Remove one of the unit tests.</li>
+<li>Repeate the checks.</li>
+</ol>
 
 
 ## Day 2, Module 1 - Page Object Pattern
