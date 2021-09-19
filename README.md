@@ -14,7 +14,7 @@ Running scripts in `package.json`:
 <li>Read the code in <code>todo.spec.js</code>.</li>
 <li>Run <code>npm test</code> script.</li>
 <li>Play with GUI by resizing it or rerunning tests.</li>
-<li>Break some test in <code>todo.spec.js</code> file.</li>
+<li>Break some tests in <code>todo.spec.js</code> file.</li>
 <li>Open <strong>Selector Playground</strong> and select some of the elements.</li>
 <li>Check <strong>Settings > Configuration</strong> tab.</li>
 <li>Open <strong>DevTools > Console</strong> (<code>Ctr + Shift + I</code>).</li>
@@ -26,9 +26,9 @@ Running scripts in `package.json`:
 <li>Read the code in <code>todo.spec.js</code>.</li>
 <li>Run <code>npm run cy:zero</code> script.</li>
 <li>Read the code in <code>actions.spec.js</code>.</li>
-<li>Break some test in <code>actions.spec.js</code> file.</li>
+<li>Break some tests in <code>actions.spec.js</code> file.</li>
 <li>Play with <code>xit</code> as well as <code>it.only</code> in spec files.</li>
-<li>Add <code>cy.pause()</code> in chosen test.</li>
+<li>Add <code>cy.pause()</code> in the chosen test.</li>
 <li>Break <code>beforeEach()</code> <strong>hook</strong> in <code>todo.spec.js</code> file.</li>
 <li>Run <code>npm run cy:one</code> script.</li>
 <li>Stop the Cypress in CLI mode (<code>Ctr + C</code>).</li>
@@ -39,8 +39,8 @@ Running scripts in `package.json`:
 ### Task 1: Hello Cypress World
 <ol>
 <li>Open <code>1-cypress-in-a-nutshell/hello.spec.js</code> file.</li>
-<li>Write your 1<sup>st</sup> suite with name <strong>Hello</strong>.</li>
-<li>Write your 1<sup>st</sup> test with name <strong>Cypress</strong>.</li>
+<li>Write your 1<sup>st</sup> suite with the name <strong>Hello</strong>.</li>
+<li>Write your 1<sup>st</sup> test with the name <strong>Cypress</strong>.</li>
 <li>Write your 1<sup>st</sup> assertion using <strong>World</strong> string.</li>
 <li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
 <li>Run <code>1-cypress-in-a-nutshell/hello.spec.js</code> suite.</li>
@@ -82,6 +82,19 @@ Running scripts in `package.json`:
 <li>Uncomment line in <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> file.</li>
 <li>Run <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> suite in both CLI and GUI mode.</li>
 <li>Compare the results from both runs in CLI as well as GUI mode.</li>
+<li>Stop the Cypress in GUI mode.</li>
+</ol>
+
+### Task 5: Aliases with DB
+<ol>
+<li>Open <code>1-cypress-in-a-nutshell/db-aliases.spec.js</code> file.</li>
+<li>Read the <strong>failing</strong> code in <code>db-aliases.spec.js</code> suite.</li>
+<li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
+<li>Run <code>1-cypress-in-a-nutshell/db-aliases.spec.js</code> suite.</li>
+<li>Uncomment line in <code>beforeEach</code> hook of <code>1-cypress-in-a-nutshell/db-aliases.spec.js</code> file.</li>
+<li>Comment line responsible for geting data in <code>1-cypress-in-a-nutshell/db-aliases.spec.js</code> suite.</li>
+<li>Check the results in GUI mode.</li>
+<li>Make sure that code is <strong>fixed</strong> in <code>db-aliases.spec.js</code> file.</li>
 <li>Stop the Cypress in GUI mode.</li>
 </ol>
 
