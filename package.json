@@ -4,9 +4,14 @@
   "description": "Cypress training",
   "main": "index.js",
   "devDependencies": {
+    "@cypress/code-coverage": "^3.9.11",
+    "babel-plugin-istanbul": "^6.0.0",
     "cypress": "^8.4.1",
     "eslint": "^3.2.1",
     "eslint-plugin-cypress": "^2.12.1"
+  },
+  "dependencies": {
+    "flatted": "^3.2.2"
   },
   "scripts": {
     "test": "cypress open"
@@ -20,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/misiekofski/cypress-training/issues"
   },
-  "homepage": "https://github.com/misiekofski/cypress-training#readme",
-  "dependencies": {
-    "flatted": "^3.2.2"
-  }
+  "homepage": "https://github.com/misiekofski/cypress-training#readme"
 }

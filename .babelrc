@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        [
+            "istanbul",
+            {
+                "include": [
+                    "**/calc.js"
+                ],
+                "exclude": [
+                    "**/*.spec.js"
+                ]
+            }
+        ]
+    ]
+}
