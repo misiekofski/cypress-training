@@ -1,3 +1,3 @@
 /// <reference types="cypress" />
 
-// Task #5
+// Task #3

@@ -49,15 +49,39 @@ Running scripts in `package.json`:
 <li>Stop the Cypress in GUI mode.</li>
 </ol>
 
-### Task 2: Check Assertions with DB
+### Task 2: Check multiple Assertions
 <ol>
-<li>Open <code>1-cypress-in-a-nutshell/assert-db.spec.js</code> file.</li>
-<li>Write your suite with name <strong>Task2</strong>.</li>
-<li>Write your test with name <strong>Assertions with DB</strong>.</li>
+<li>Open <code>1-cypress-in-a-nutshell/assertions.spec.js</code> file.</li>
+<li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
+<li>Run <code>1-cypress-in-a-nutshell/assertions.spec.js</code> suite.</li>
+<li>Uncomment lines in <code>1-cypress-in-a-nutshell/assertions.spec.js</code> file.</li>
+<li>Fix the suite with adjusted assertions.</li>
+<li>Check the results in GUI mode.</li>
+<li>Stop the Cypress in GUI mode.</li>
+</ol>
+
+### Task 3: Assertions with DB
+<ol>
+<li>Open <code>1-cypress-in-a-nutshell/db-assertions.spec.js</code> file.</li>
 <li>. . . .</li>
 <li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
-<li>Run <code>1-cypress-in-a-nutshell/assert-db.spec.js</code> suite.</li>
+<li>Run <code>1-cypress-in-a-nutshell/db-assertions.spec.js</code> suite.</li>
+<li>Break the assertion to make it <strong>fail</strong>.</li>
 <li>Check the results in GUI mode.</li>
+<li>Stop the Cypress in GUI mode.</li>
+</ol>
+
+### Task 4: Check re-tries
+<ol>
+<li>Open <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> file.</li>
+<li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
+<li>Run <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> suite.</li>
+<li>Stop the Cypress in GUI mode.</li>
+<li>Open Cypress in CLI mode using<br />
+<code>npm run cy:run -- --spec ./cypress/integration/day1/1-cypress-in-a-nutshell/re-tries.spec.js</code> command.</li>
+<li>Uncomment line in <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> file.</li>
+<li>Run <code>1-cypress-in-a-nutshell/re-tries.spec.js</code> suite in both CLI and GUI mode.</li>
+<li>Compare the results from both runs in CLI as well as GUI mode.</li>
 <li>Stop the Cypress in GUI mode.</li>
 </ol>
 
