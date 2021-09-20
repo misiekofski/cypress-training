@@ -6,7 +6,7 @@ describe('multiple users test', () => {
   // because it means the test is already running.
   // Same with using "before" hook - new tests cannot be created from "before" hook.
   // Instead we need to load JSON file using "require" at the start time  
-  const users = require('../../../fixtures/userlogins');
+  const users = require('../../../fixtures/userlogins.json');
 
   users.forEach((user) => {
       it(`logs user: ${user.email}`, () => {
