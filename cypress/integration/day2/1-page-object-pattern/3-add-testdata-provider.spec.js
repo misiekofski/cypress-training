@@ -1,11 +1,4 @@
 /// <reference types="cypress" />
-
-// Task #3
-
-
-/// <reference types="cypress" />
-import { LoginPage } from "../../../pages/LoginPage/LoginPage";
-const loginPage = new LoginPage();
 // Task #3
 
 describe('multiple users test', () => {
@@ -23,7 +16,7 @@ describe('multiple users test', () => {
         cy.get('input[formcontrolname="password"]').type(user.password);
         cy.get('.mat-button-wrapper').click();
 
-        cy.get('span.username').should('have.text', 'Michal Dobrzycki');
+        cy.get('span.username').should('have.text', user.fullname);
       })
   })
 })
