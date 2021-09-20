@@ -14,7 +14,9 @@
     "lowdb": "^3.0.0"
   },
   "dependencies": {
-    "flatted": "^3.2.2"
+    "cypress-grep": "^2.5.3",
+    "flatted": "^3.2.2",
+    "save": "^2.4.0"
   },
   "scripts": {
     "test": "cypress open",

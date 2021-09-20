@@ -9,13 +9,13 @@ describe('Multiple assertions', () => {
   })
 
   it(`Should add todos`, () => {
-    todos.forEach((todo) => {
+    todos.forEach((todo, idx) => {
       cy.get('[data-test=new-todo]')
-        .type(`${todo}{enter}`)
+        .type(`${todo}{enter}`) 
         .get('.todo-list li')
-        // .should('have.length', 2)
+        .should('have.length', 2 + idx + 1)
         .last()
-        // .should('have.text', )
+        .should('have.text', todo)
     })
   })
 })

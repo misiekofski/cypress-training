@@ -17,7 +17,7 @@ Running scripts in `package.json`:
 <li>Break some tests in <code>todo.spec.js</code> file.</li>
 <li>Open <strong>Selector Playground</strong> and select some of the elements.</li>
 <li>Check <strong>Settings > Configuration</strong> tab.</li>
-<li>Open <strong>DevTools > Console</strong> (<code>Ctr + Shift + I</code>).</li>
+<li>Open <strong>DevTools > Console</strong> (<code>Ctrl + Shift + I</code>).</li>
 <li>Stop the Cypress in GUI mode.</li>
 </ol>
 
@@ -31,7 +31,7 @@ Running scripts in `package.json`:
 <li>Add <code>cy.pause()</code> in the chosen test.</li>
 <li>Break <code>beforeEach()</code> <strong>hook</strong> in <code>todo.spec.js</code> file.</li>
 <li>Run <code>npm run cy:one</code> script.</li>
-<li>Stop the Cypress in CLI mode (<code>Ctr + C</code>).</li>
+<li>Stop the Cypress in CLI mode (<code>Ctrl + C</code>).</li>
 </ol>
 
 
@@ -109,14 +109,14 @@ Running scripts in `package.json`:
 ### Task 1
 <ol>
 <li>Check <code>./src/calc.js</code> code.</li>
-<li>Check <code>./cypress/integration/day1/4-code-coverage/1-task/calc.spec.js</code> code.</li>
-<li>Open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
-<li>Run <code>4-code-coverage/1-task/calc.spec.js</code> unit tests.</li>
+<li>Read <code>./cypress/integration/day1/4-code-coverage/calc.spec.js</code> code.</li>
+<li>In 1<sup>st</sup> <code>cmd</code> open Cypress Test Runner in GUI mode using <code>npm test</code> script.</li>
+<li>Run <code>4-code-coverage/calc.spec.js</code> unit tests.</li>
 <li>Make sure all unit tests <strong>passed</strong>.</li>
-<li>Run <code>npx nyc report --reporter=text-summary</code> to get overview.</li>
+<li>In 2<sup>nd</sup> <code>cmd</code> run <code>npx nyc report --reporter=text-summary</code> to get overview.</li>
 <li>Open <code>./coverage/lcov-report/index.html</code> in the web browser.</li>
-<li>Remove one of the unit tests.</li>
-<li>Repeate the checks.</li>
+<li>Remove or comment one of the unit tests in <code>4-code-coverage/calc.spec.js</code> suite.</li>
+<li>Repeat the checks.</li>
 </ol>
 
 
@@ -127,6 +127,27 @@ Running scripts in `package.json`:
 
 
 ## Day 2, Module 3 - Static Code Analysis
+### Task 1
+<ol>
+<li>Run <code>sonarqube</code> image in your Docker.</li>
+<li>Open <code>http://localhost:9000/</code> in the web browser.</li>
+<li>Log-in as an admin to the <strong>sonarqube dashboard</strong>.</li>
+<li>In <code>sonar-project.properties</code> file define unique <code>sonar.projectKey</code> for chosen project, i.e.: <code>cypress-training</code>.</li>
+<li>In <strong>sonarqube dashboard</strong> choose <strong>Create Project <> Manually</strong> option.</li>
+<li>Choose preferable <strong>Project display name</strong>, i.e.: <code>cypress-training</code> (same as <code>sonar.projectKey</code>).
+<li>Confirm by clicking <strong>[ Setup ]</strong> button.</li>
+<li>Choose source of the project files as <strong>locally</strong>.</li>
+<li>Generate a token, by typing i.e.: <strong>cypress</strong> and clicking <strong>generate</strong>.</li>
+<li>Bear in mind this generated token is <strong>secret</strong> and unique.</li>
+<li>Click continue in order to choose project and language specific command for <strong>sonarqube scanner</strong>.</li> 
+<li>After selecting project and language specific option copy generated command to the clipboard.</li>
+<li>In <code>cmd</code> go to the main folder of the chosen project, i.e.: <code>cypress-training</code> one.</li>
+<li>Paste the command from the clipboard and press <strong>[ Enter ]</strong> key.</li>
+<li>Make sure that static analysis is running and logging in your <code>cmd</code> window.</li>
+<li>When static analysis is completed ( <strong>EXECUTION SUCCESS</strong> ) go to <strong>sonarqube dashboard</strong>.</li>
+<li>Review the results of chosen project, i.e.: <code>http://localhost:9000/dashboard?id=cypress-training</code> in <strong>sonarqube dashboard</strong>.</li>
+<li>Stop <code>sonarqube</code> image in your Docker and close all related windows.</li>
+</ol>
 
 
 ## Day 2, Module 4 - Good Practices
