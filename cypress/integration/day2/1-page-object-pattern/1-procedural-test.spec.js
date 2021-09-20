@@ -9,9 +9,11 @@ context('Procedural test into Page Object Pattern', () => {
   
     
     it('procedural tests to rewrite it to Page Object Pattern', () => {
-        cy.get('#mat-input-0').type('dobrzycki@gmail.com');
+        cy.get('input[formcontrolname="email"]').type('dobrzycki@gmail.com');
         cy.get('.mat-button-wrapper').click();
-        cy.get('#mat-input-9').type('test12345');
+        cy.get('input[formcontrolname="password"]').type('test12345');
         cy.get('.mat-button-wrapper').click();
+
+        cy.get('span.username').should('have.text', 'Michal Dobrzycki');
     })
 })
