@@ -32,7 +32,6 @@ context('API Login test into page object pattern', () => {
         })
 
 
-
         cy.visit('https://portal.vizlib.com/pages/home');
     })
 })
