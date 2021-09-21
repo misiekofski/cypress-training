@@ -1,11 +1,14 @@
-describe('random user app', () => {
+describe.only('random user app', () => {
   beforeEach(() => {
     cy.visit('/')
   })
 
-  it('`Loading …` is displayed then image', () => {
+  it('shows `Loading …` text', () => {
     cy.contains('#root', /Loading/);
-    cy.get('#root > img').should('have.attr', 'alt', 'random user')
+  })
+
+  it('verifies existing of alt attribute', () => {
+    //
   })
 
   it('verifies existing of title attribute', () => {
