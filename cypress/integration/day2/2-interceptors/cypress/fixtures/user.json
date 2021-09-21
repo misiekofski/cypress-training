@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Paulo",
+        "last": "da Rosa"
+      },
+      "location": {
+        "street": {
+          "number": 7261,
+          "name": "Rua Maranhão "
+        },
+        "city": "Vitória",
+        "state": "Rondônia",
+        "country": "Brazil",
+        "postcode": 94115,
+        "coordinates": {
+          "latitude": "-76.9982",
+          "longitude": "-162.5764"
+        },
+        "timezone": {
+          "offset": "-12:00",
+          "description": "Eniwetok, Kwajalein"
+        }
+      },
+      "email": "paulo.darosa@example.com",
+      "login": {
+        "uuid": "c50b6fce-ab1c-4704-a99f-b118afbfa067",
+        "username": "organiczebra725",
+        "password": "master1",
+        "salt": "NSgXDdq7",
+        "md5": "df9e9837e04b330c5f2d13efa9cfdf33",
+        "sha1": "5d9e22b24270af8e760632196b9033f2592d47d4",
+        "sha256": "edf1d49282385051f32b0eb32f75e3e034f06416b0799b5ac29b59c783e66abb"
+      },
+      "dob": {
+        "date": "1949-08-16T22:59:35.318Z",
+        "age": 72
+      },
+      "registered": {
+        "date": "2004-03-11T12:53:22.335Z",
+        "age": 17
+      },
+      "phone": "(69) 7960-3486",
+      "cell": "(14) 0986-9756",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/50.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/50.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/50.jpg"
+      },
+      "nat": "BR"
+    }
+  ],
+  "info": {
+    "seed": "ce42df9a2650a5b0",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
